@@ -36,6 +36,9 @@ def valid_pairs_find_and_remove(data):
 
 data = valid_pairs_find_and_remove(data)
 
+# secondly, I want to parse through the characters 
+# and match the open brackets to any hanging closed 
+# brackets.  
 total_score = 0
 for line in data.splitlines():
   stack = []
